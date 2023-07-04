@@ -1,0 +1,188 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+ 
+}
+body {
+    text-align: center;
+    letter-spacing: -1.6px;
+    background-color: #010644;
+}
+
+.banner-cont {
+    background-image:linear-gradient(#00174a9f,rgba(27, 27, 130, 0.474),#1c2c3897, #00162e);  
+    opacity: .9;
+    border-bottom: 2px solid #3d3c3cfb;
+
+}
+
+.logo img {
+    max-width: 360px;
+    min-height: 190px;
+    margin-top: 1em;
+}
+i {
+    color: rgb(0, 133, 241);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 900;
+    opacity: .9;
+   
+
+}
+.flashy {
+    width: 298px;
+    color: #fbfcff ;
+    font-size: 18px;
+    font:italic;
+}  
+.banner-cont button {
+    background-color: #007cf0;
+    font-family: fantasy;
+    font-size: 16px ;
+    width: 12%;
+    height: 2rem;
+    margin: 13px;
+    border-radius: 10px 10px 10px;
+    color: #202204;
+    cursor: pointer;
+    transition: .06s;
+    border-bottom: 2px solid #fff1f1fb;
+}
+.banner-cont button:hover {
+    background-color: #eaebed;
+    text-decoration:line-through rgb(0, 60, 255) 2px;
+}
+
+#course-content {
+    background-image:linear-gradient(#00174a9f,rgba(27, 27, 130, 0.474),#1c2c3897, #00162e);   
+    border-bottom: 2px solid #3d3c3cfb;
+}
+/*|Quando coloca a *vírgula* automaticamente servirá para todas a tag involvidas|*/
+#course-content, h2 {
+   
+    padding: 21px;
+    font-size: 35px;
+    color: #0853f6;
+    
+    
+}
+/*|Aqui no *p* fiz uma alteração somente no tamanho, na largura, na cor.|*/
+#course-content p {
+    border-radius: 10px 6% 10px;
+    font-size: 19px;
+    white-space: pre-line;
+    width: 500px;
+    word-break: break-word;
+    color:aliceblue;
+
+    
+}
+.modules-list{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.module {
+    background-color: #0c0c0c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-top: 12px;
+    border: 1px solid rgb(6, 118, 230);
+    width: 419px;
+    padding: 3px;
+    border-radius: 4% 51px;  
+    opacity: .8;
+    cursor: pointer;
+    transition: .06s; 
+    border-bottom: 2px solid #fff1f1fb;
+
+
+}
+.modules-list .module:hover {
+    background-color:#fff;
+    text-decoration: 4px  underline;
+  
+}
+code{
+    color: hsl(112, 100%, 50%);
+  
+}
+#transform-world {
+    background-color: #5c8aee;
+    background-image: url('../business.jpg');
+    background-attachment: fixed;
+    background-position:center ;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    height: 205px;
+    text-align: right;
+    border-bottom: 2px solid #3d3c3cfb;
+        
+}
+#transform-world p {
+    position:absolute;
+    font-style: oblique;
+    text-decoration:underline;
+    font-size: 25px;
+    right: 20%;
+    width: 1px;
+    padding: 4px;
+    color: hsl(200, 3%, 83%);
+    cursor: pointer;
+    transform: 0.6s;
+}
+
+#professional-challengs {
+    font-size:20px;
+    display: block;
+    background-image:linear-gradient(#00174a9f,rgba(27, 27, 130, 0.474),#1c2c3897, #00162e);  
+    width: 100%;
+    padding: 14px;
+    border-bottom: 2px solid #3d3c3cfb;
+   
+}
+#professional-challengs h2 {
+    font-size:25px;
+    font-style: oblique;
+    width: 545px;
+    margin-top: 30px;
+    color: #ffffffb9;
+}
+#professional-challengs img {
+    display: grid;
+    margin-top: 11px;
+    width: 25%;
+    height:30%;
+    border-radius: 10px;
+    
+}
+#professional-challengs p {
+    margin-top: 14px;
+    color: #fff;
+    text-align: center;
+    font-style: oblique;
+    width: 614px;
+    
+}
+footer p{
+    background-image:linear-gradient(#0060fa2c,rgba(0, 22, 70, 0.474), #00013f); 
+  height: 49px;
+  
+
+}
+.dio-logo {
+    display: block;
+    color: #faee0c;
+    font-size: 23px;
+    padding: 1%;
+    height: 60px;
+}
+
+a {
+    color: #fcfeff;
+    font-size: 24px;
+    font-variant: small-caps;
+    text-decoration: none;
+}
